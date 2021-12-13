@@ -9,7 +9,7 @@ const MainNavigation = () => {
       <nav className={styles.nav}>
         <ul>
           <li>
-            <NavLink to="/sketches" activeClassName={styles.active}>
+            <NavLink to="/all-sketches" activeClassName={styles.active}>
               All sketches
             </NavLink>
           </li>

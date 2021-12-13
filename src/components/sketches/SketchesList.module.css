@@ -1,0 +1,44 @@
+.all-sketches {
+  margin: 16px auto;
+}
+
+.all-sketches h1 {
+  font-size: 2rem;
+  color: #2a2438;
+}
+
+.list ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+.list a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #5c5470;
+}
+
+.list a:hover,
+.list a:active,
+.list a.active {
+  color: #2a2438;
+}
+
+.icon {
+  width: 16px; 
+  height: 16px; 
+  margin-right: 8px;
+  /* background-position: right -100px; */
+  background: url("../../assets/rounded-sprite.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}

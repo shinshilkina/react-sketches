@@ -1,0 +1,15 @@
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #2a2438;
+}
+
+.back {
+  width: 16px;
+  height: 20px;
+  margin-right: 8px;
+  background: url("../assets/rounded-sprite.svg");
+  background-position: -164px -55px;
+  cursor: pointer;
+}
